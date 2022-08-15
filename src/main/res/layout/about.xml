@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#1D0036">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:background="@drawable/com_bg"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:text="Jarvis is an Artificial Intelligent Assistant which controls your phone on voice commands. It can make calls for you and also sends messages on your behalf. You can use it to search things on Internet. It can also navigate you while driving using Google Map. It can entertain you with music and jokes. It is capable of turning on or off your home appliances like light on voice commands."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version : 1.0"
+        android:textSize="20dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

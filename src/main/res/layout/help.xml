@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:background="@drawable/com_bg"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:divider="@drawable/layer"
+            android:showDividers="middle">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Myself\n\nAssistant's name can be asked by command which contains 'your name' phrase.\n\nExample : 'whats your name'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date\n\nDate can be asked by command which contains 'date' word.\n\nExample : 'show date'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time\n\nTime can be asked by command which contains 'time' word.\n\nExample : 'show time'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flashlight\n\nFlashlight can be turned on/off by command which contains 'flash' word and 'on/off' word.'\n\nExample : 'turn on flash/turn off flash'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call\n\nCalling can be done by command which contains 'call' word and call receiver's name.\n\nExample : 'call rohan'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Message\n\nMessage can be sent by command contains 'message/text' word, receiver's name and message.\n\nExample : 'send a text to mahesh hello'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp Message\n\nWhatsApp message can be sent by command contains 'whatsapp' word, message/text' word, receiver's name and message.\n\nExample : 'send a whatsapp message to abhi how are you"
+                android:layout_margin="25dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bluetooth\n\nBluetooth can be turned on/off by command which contains 'bluetooth' word and 'on/off' word.'\n\nExample : 'turn on bluetooth/turn off bluetooth'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wi-Fi\n\nWi-Fi can be turned on/off by command which contains 'wi-fi' word and 'on/off' word.'\n\nExample : 'turn on wi-fi/turn off wi-fi'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Open Application\n\nApplication can be opened by command which contains 'open' word and application name.'\n\nExample : 'open whatsapp'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Volume Modes\n\nVolume modes can be changed by command which contains 'normal/silent/vibrate' word and 'mode' word.'\n\nExample : 'put my phone on normal mode/put my phone on silent mode/put my phone on vibrate mode'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Searching on Web\n\nStrings can be searched on web by command starts with 'search on web' phrase.\n\nExample : 'search on web hotels near me'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get Direction On Map\n\nDirection can be get on Google Map by command starts with 'get directions on map from source to destination' phrase.\n\nExample : 'get direction on map from mumbai to pune'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Searching Videos On Youtube\n\nStrings can be searched on YouTube by command starts with 'search videos for' phrase.\n\nExample : 'search videos for arduino'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jokes\n\nJokes can be searched in application by command contains 'jokes' word.\n\nExample : 'tell me some jokes'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="News\n\nNews can be searched in application by command contains 'news' word.\n\nExample : 'tell me latest news'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weather\n\nWeather report can be searched in application by command contains 'weather' word.\n\nExample : 'tell me weather report'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Music\n\nMusic can be listened by command contains 'music' word.\n\nExample : 'play some music'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Light Control\n\nLights can be controlled by command contains 'turn on/off' word and control name.\n\nExample : 'turn on light'"
+                android:layout_margin="25dp"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

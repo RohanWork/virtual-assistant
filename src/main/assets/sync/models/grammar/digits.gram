@@ -1,0 +1,6 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = jarvis ;
+public <digits> = <digit>+;
