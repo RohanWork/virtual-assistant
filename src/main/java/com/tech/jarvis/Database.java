@@ -66,7 +66,7 @@ public class Database extends SQLiteOpenHelper {
         contentValues.put(COL2, "all");
         result = db1.insert(TABLE_NAME, null, contentValues);
         contentValues.put(COL1, "simnumber");
-        contentValues.put(COL2, "+919665989868");
+        contentValues.put(COL2, "+919696969696");
         result = db1.insert(TABLE_NAME, null, contentValues);
         contentValues.put(COL1, "first");
         contentValues.put(COL2, "first");
